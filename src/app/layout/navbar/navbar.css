@@ -1,0 +1,130 @@
+
+.navbar {
+  width: 100%;
+  background: #111111;
+  border-bottom: 1px solid rgba(255,255,255,0.09);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1320px;
+  margin: auto;
+  min-height: 85px;
+  padding: 0 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.brand strong {
+  color: #F58220;
+}
+
+.brand-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  background: #F58220;
+  color: #111;
+  font-size: 24px;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+nav a {
+  color: #c8c8c8;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #F58220;
+}
+
+nav .contact-link {
+  background: #F58220;
+  color: #111;
+  padding: 13px 19px;
+  border-radius: 5px;
+}
+
+nav .contact-link:hover {
+  background: white;
+  color: #111;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+  .nav-container {
+    padding: 0 20px;
+  }
+
+  nav {
+    gap: 15px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 850px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    background: #181818;
+    padding: 25px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 22px;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  nav .contact-link {
+    text-align: center;
+  }
+}

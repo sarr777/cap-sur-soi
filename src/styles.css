@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --black: #111111;
+  --dark: #181818;
+  --orange: #F58220;
+  --white: #FFFFFF;
+  --gray: #A5A5A5;
+  --light: #F5F5F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--white);
+  color: var(--black);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button, input, textarea {
+  font: inherit;
+}
+
+a {
+  transition: 0.3s ease;
+}

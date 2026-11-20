@@ -1,0 +1,292 @@
+
+.confidence-hero {
+  min-height: 490px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 80px 8%;
+  background:
+    linear-gradient(90deg, #111 15%, rgba(17,17,17,.88) 55%, rgba(17,17,17,.35)),
+    url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85')
+    center/cover;
+}
+
+.hero-content {
+  max-width: 720px;
+}
+
+.eyebrow, .section-label {
+  color: #F58220;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.confidence-hero h1 {
+  font-size: clamp(45px, 7vw, 75px);
+  line-height: 1.1;
+  font-weight: 900;
+  margin: 25px 0;
+}
+
+.confidence-hero h1 span,
+.confidence-intro h2 span,
+.section-heading h2 span,
+.head-high-content h2 span,
+.exercise-container h2 span {
+  color: #F58220;
+}
+
+.confidence-hero p {
+  max-width: 620px;
+  color: #ccc;
+  line-height: 1.9;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.orange-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 22px;
+  padding: 16px 23px;
+  background: #F58220;
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  transition: .3s;
+}
+
+.orange-btn:hover {
+  background: white;
+  transform: translateY(-3px);
+}
+
+.confidence-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.confidence-intro {
+  padding: 100px 7%;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 85px;
+  align-items: start;
+}
+
+.confidence-intro h2,
+.section-heading h2,
+.head-high-content h2,
+.exercise-container h2 {
+  font-size: clamp(32px, 4vw, 45px);
+  line-height: 1.25;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.intro-copy p {
+  color: #686868;
+  line-height: 2;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.confidence-section {
+  padding: 100px 7%;
+  background: #f5f5f5;
+}
+
+.section-heading {
+  max-width: 700px;
+  margin-bottom: 45px;
+}
+
+.section-heading p {
+  color: #777;
+  line-height: 1.9;
+  margin-top: 18px;
+}
+
+.obstacles-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.obstacle-card {
+  background: white;
+  padding: 35px;
+  border: 1px solid #e9e9e9;
+  transition: .3s;
+}
+
+.obstacle-card:hover {
+  border-color: #F58220;
+  transform: translateY(-5px);
+}
+
+.card-number, .principle > span {
+  color: #F58220;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.obstacle-card h3, .principle h3 {
+  font-size: 21px;
+  margin: 22px 0 14px;
+}
+
+.obstacle-card p, .principle p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.head-high-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #111;
+  color: white;
+}
+
+.head-high-image {
+  min-height: 550px;
+  background: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=85')
+    center/cover;
+}
+
+.head-high-content {
+  padding: 90px 9%;
+  align-self: center;
+}
+
+.head-high-content p {
+  color: #bbb;
+  line-height: 2;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.principles-section {
+  padding: 105px 7%;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px 60px;
+  margin-top: 60px;
+}
+
+.principle {
+  border-top: 1px solid #ddd;
+  padding-top: 25px;
+}
+
+.confidence-exercise {
+  background: #181818;
+  color: white;
+  padding: 100px 7%;
+}
+
+.exercise-container {
+  max-width: 850px;
+  margin: auto;
+}
+
+.exercise-container > p {
+  color: #bbb;
+  line-height: 1.9;
+  margin-top: 25px;
+}
+
+.challenge-list {
+  margin: 35px 0;
+}
+
+.challenge-list div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #383838;
+  padding: 19px 0;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.challenge-list span {
+  color: #F58220;
+  font-weight: 900;
+}
+
+.confidence-quote {
+  padding: 90px 8%;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.confidence-quote p {
+  max-width: 850px;
+  margin: auto;
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.confidence-quote span {
+  display: block;
+  margin-top: 25px;
+  color: #F58220;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+@media(max-width: 800px) {
+  .intro-grid, .head-high-section {
+    grid-template-columns: 1fr;
+  }
+
+  .head-high-image {
+    min-height: 350px;
+  }
+
+  .obstacles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .principles-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media(max-width: 550px) {
+  .confidence-hero {
+    padding: 70px 22px;
+  }
+
+  .confidence-intro, .confidence-section,
+  .principles-section, .confidence-exercise {
+    padding: 75px 22px;
+  }
+
+  .head-high-content {
+    padding: 75px 22px;
+  }
+
+  .obstacle-card {
+    padding: 25px;
+  }
+}

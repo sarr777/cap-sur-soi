@@ -1,0 +1,26 @@
+
+<header class="navbar">
+  <div class="nav-container">
+
+    <a routerLink="/" class="brand" (click)="closeMenu()">
+      <span class="brand-icon">C</span>
+      <span>CAP SUR <strong>SOI.</strong></span>
+    </a>
+
+    <button class="menu-toggle" (click)="toggleMenu()" aria-label="Ouvrir le menu">
+      <lucide-icon [img]="menuOpen ? X : Menu" [size]="25"></lucide-icon>
+    </button>
+
+    <nav [class.active]="menuOpen">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="closeMenu()">Accueil</a>
+      <a routerLink="/apropos" routerLinkActive="active" (click)="closeMenu()">A propos</a>
+      <a routerLink="/confiance" routerLinkActive="active" (click)="closeMenu()">Confiance en soi</a>
+      <a routerLink="/procrastination" routerLinkActive="active" (click)="closeMenu()">Procrastination</a>
+      <a routerLink="/sport" routerLinkActive="active" (click)="closeMenu()">Sport</a>
+      <a routerLink="/habitudes" routerLinkActive="active" (click)="closeMenu()">Habitudes</a>
+      <a routerLink="/ressources" routerLinkActive="active" (click)="closeMenu()">Ressources</a>
+      <a routerLink="/contact" class="contact-link" (click)="closeMenu()">Nous contacter</a>
+    </nav>
+
+  </div>
+</header>

@@ -1,0 +1,73 @@
+<section class="page-hero">
+  <span class="eyebrow">Restons en contact</span>
+  <h1>UNE QUESTION, UNE IDÉE OU UNE SUGGESTION ?</h1>
+  <p>
+    Nous sommes ouverts aux échanges. Écris-nous pour partager tes
+    remarques, proposer un sujet ou nous faire part de ton expérience
+    avec CAP SUR SOI.
+  </p>
+</section>
+
+<section class="page-section">
+  <div class="contact-layout">
+    <aside class="contact-info">
+      <span class="eyebrow">Échangeons ensemble</span>
+      <h2>Ta voix compte.</h2>
+      <p>
+        Une plateforme évolue aussi grâce aux personnes qui la visitent.
+        Tes idées et tes suggestions peuvent nous aider à améliorer les
+        contenus et à proposer des sujets toujours plus utiles.
+      </p>
+      <p>
+        Tu peux nous écrire pour poser une question, signaler une difficulté
+        ou proposer une idée d'article autour de la confiance en soi, de la
+        discipline, du sport ou des habitudes.
+      </p>
+      <p><strong>CAP SUR SOI</strong><br>Discipline • Confiance • Dépassement de soi</p>
+      <a routerLink="/" class="page-button">Retour à l'accueil</a>
+    </aside>
+
+    <div>
+      <div class="section-heading">
+        <span class="eyebrow">Formulaire de contact</span>
+        <h2>Envoie-nous un message</h2>
+        <p>Remplis les champs ci-dessous pour préparer ton message.</p>
+      </div>
+
+      <form class="contact-form">
+        <label>
+          Nom complet
+          <input type="text" name="nom" placeholder="Ton nom et prénom" required>
+        </label>
+
+        <label>
+          Adresse e-mail
+          <input type="email" name="email" placeholder="exemple@email.com" required>
+        </label>
+
+        <label>
+          Sujet du message
+          <select name="sujet" required>
+            <option value="">Choisir un sujet</option>
+            <option value="question">Question générale</option>
+            <option value="suggestion">Suggestion de contenu</option>
+            <option value="partenariat">Partenariat</option>
+            <option value="autre">Autre demande</option>
+          </select>
+        </label>
+
+        <label>
+          Ton message
+          <textarea name="message" placeholder="Écris ton message ici..." required></textarea>
+        </label>
+
+        <button type="button">Envoyer le message</button>
+        <p class="page-copy">
+          Ce formulaire est actuellement une interface de présentation.
+          L'envoi réel des messages nécessitera une connexion à un service
+          ou à un backend.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
